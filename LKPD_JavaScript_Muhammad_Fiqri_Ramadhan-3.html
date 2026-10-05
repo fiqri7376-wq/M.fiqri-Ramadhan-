@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LKPD JavaScript - Muhammad Fiqri Ramadhan</title>
+<style>
+body{font-family:Arial,sans-serif;line-height:1.6;background:#f3f4f6;color:#222;margin:0}
+.container{max-width:900px;margin:25px auto;background:white;padding:35px;border-radius:12px;box-shadow:0 2px 10px #bbb}
+h1{text-align:center;font-size:25px} h2{margin-top:30px;border-bottom:2px solid #333;padding-bottom:6px}
+.identity{background:#eef2ff;padding:18px;border-radius:8px}
+pre{background:#f1f1f1;padding:14px;overflow:auto;border-radius:7px}
+.answer{background:#fafafa;border-left:4px solid #555;padding:10px 15px;margin:8px 0}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>LEMBAR KERJA PESERTA DIDIK (LKPD)</h1>
+<h1>JavaScript – Mengenal dan Menggunakan Variable</h1>
+
+<div class="identity">
+<b>Nama:</b> Muhammad Fiqri Ramadhan<br>
+<b>Kelas:</b> X PPLG 1<br>
+<b>Kelompok:</b> m.fiqri<br>
+<b>Tanggal:</b> 5 Oktober 2026
+</div>
+
+<h2>D. APERSEPSI</h2>
+<div class="answer">Informasi dapat disimpan menggunakan variable, misalnya nama, kelas, umur, nilai, dan jurusan. Setiap variable diberi nilai sesuai data yang ingin disimpan.</div>
+
+<h2>E. AKTIVITAS 1 – MENGAMATI</h2>
+<pre>let nama = "Budi";
+let umur = 16;
+let nilai = 85;
+console.log(nama);
+console.log(umur);
+console.log(nilai);</pre>
+<div class="answer"><b>1.</b> Console menampilkan Budi, 16, dan 85.</div>
+<div class="answer"><b>2.</b> nama, umur, dan nilai adalah variable yang menyimpan data siswa.</div>
+<div class="answer"><b>3.</b> <code>console.log(nama);</code> menampilkan nilai yang tersimpan dalam variable nama, yaitu Budi.</div>
+<div class="answer"><b>4.</b> Variable adalah tempat untuk menyimpan data agar dapat digunakan kembali oleh program.</div>
+
+<h2>F. AKTIVITAS 2 – MENGENAL VARIABLE</h2>
+<div class="answer">Variable adalah tempat untuk menyimpan sebuah data agar data tersebut dapat digunakan kembali oleh program.</div>
+<pre>let nama = "Andi";</pre>
+<div class="answer"><b>let</b> membuat variable, <b>nama</b> adalah nama variable, <b>=</b> memberikan nilai, dan <b>"Andi"</b> adalah nilai yang disimpan.</div>
+
+<h2>G. AKTIVITAS 3 – PRAKTIK MEMBUAT VARIABLE</h2>
+<div class="answer">Hasil pengamatan Console:<br>Nama: Budi<br>Kelas: XI RPL 1<br>Umur: 16</div>
+
+<h2>H. AKTIVITAS 4 – EKSPERIMEN</h2>
+<div class="answer"><b>1.</b> Ya, hasil pada Console berubah sesuai data baru.</div>
+<div class="answer"><b>2.</b> Nilai pada variable nama, kelas, dan umur diubah.</div>
+<div class="answer"><b>3.</b> Program menampilkan data baru karena nilai variable telah diganti.</div>
+
+<h2>I. AKTIVITAS 5 – BERBAGAI DATA</h2>
+<div class="answer">
+nama = "Andi" → String (teks)<br>
+umur = 17 → Number (angka)<br>
+tinggi = 170 → Number (angka)<br>
+aktif = true → Boolean
+</div>
+<div class="answer">Data yang ditulis menggunakan tanda kutip merupakan data String/teks. Data 17 merupakan data Number/angka.</div>
+
+<h2>J. AKTIVITAS 6 – let DAN const</h2>
+<div class="answer">Hasil <code>let umur = 16; umur = 17;</code> adalah <b>17</b>.</div>
+<div class="answer">Pada const, nilai tidak dapat diubah setelah dideklarasikan sehingga akan menghasilkan error.</div>
+<div class="answer"><b>let:</b> nilai dapat diubah dan digunakan untuk data yang masih mungkin berubah.<br>
+<b>const:</b> nilai tidak dapat diubah dan digunakan untuk data yang tidak perlu diubah.</div>
+
+<h2>L. AKTIVITAS 8 – MANA YANG BENAR?</h2>
+<div class="answer">
+1. nama ✓<br>2. namaSiswa ✓<br>3. nama_siswa ✓<br>4. 2nama ✗<br>
+5. nama siswa ✗<br>6. nilaiAkhir ✓<br>7. nilai1 ✓<br>8. nilai-akhir ✗<br>
+9. Alamat ✓<br>10. alamatSiswa ✓
+</div>
+<div class="answer">Perbaikan: <code>2nama → nama2</code>, <code>nama siswa → namaSiswa</code>, <code>nilai-akhir → nilaiAkhir</code>.</div>
+
+<h2>M. AKTIVITAS 9 – TANTANGAN DATA DIRI</h2>
+<pre>let nama = "Muhammad Fiqri Ramadhan";
+let kelas = "X PPLG 1";
+let jurusan = "PPLG";
+let umur = 16;
+let hobi = "Bermain game";
+
+console.log(nama);
+console.log(kelas);
+console.log(jurusan);
+console.log(umur);
+console.log(hobi);</pre>
+
+<h2>N. AKTIVITAS 10 – TANTANGAN LEVEL 2</h2>
+<pre>let nama = "Muhammad Fiqri Ramadhan";
+let bahasaIndonesia = 85;
+let matematika = 85;
+let produktif = 90;
+
+console.log(nama);
+console.log(bahasaIndonesia);
+console.log(matematika);
+console.log(produktif);</pre>
+<div class="answer">1. Ada 4 variable yang dibuat.<br>
+2. Variable yang menyimpan teks: nama.<br>
+3. Variable yang menyimpan angka: bahasaIndonesia, matematika, dan produktif.</div>
+
+<h2>O. AKTIVITAS 11 – DEBUGGING</h2>
+<pre>let namaSiswa = "Budi";
+let umur = 16;
+let kelas2 = "XI RPL";
+
+console.log(namaSiswa);
+console.log(umur);
+console.log(kelas2);</pre>
+<div class="answer">Kesalahan: nama siswa tidak boleh mengandung spasi; 2kelas tidak boleh diawali angka; console.log() harus menggunakan nama variable yang benar.</div>
+
+<h2>P. AKTIVITAS 12 – CHALLENGE</h2>
+<pre>const nama = "Muhammad Fiqri Ramadhan";
+const kelas = "X PPLG 1";
+const jurusan = "PPLG";
+const umur = 16;
+const kota = "Bandung";
+const hobi = "Bermain game";
+const citaCita = "Programmer";
+
+const namaSekolah = "Sekolah";
+const jenisKelamin = "Laki-laki";
+
+console.log(nama);
+console.log(kelas);
+console.log(jurusan);
+console.log(umur);
+console.log(kota);
+console.log(hobi);
+console.log(citaCita);
+console.log(namaSekolah);
+console.log(jenisKelamin);</pre>
+<div class="answer">Variable tambahan: <b>namaSekolah</b> dan <b>jenisKelamin</b>.</div>
+
+<h2>Q. AKTIVITAS 13 – THINK PAIR SHARE</h2>
+<div class="answer"><b>Think:</b> Programmer membutuhkan variable untuk menyimpan dan menggunakan data dalam program dengan mudah.</div>
+<div class="answer"><b>Pair:</b> Jawaban dapat sama atau berbeda tergantung cara menjelaskan fungsi variable.</div>
+<div class="answer"><b>Share:</b> Variable digunakan untuk menyimpan data agar dapat digunakan kembali, diubah bila memakai let, dan ditampilkan menggunakan console.log().</div>
+
+<h2>R. REFLEKSI</h2>
+<div class="answer">✓ Saya memahami pengertian variable.<br>✓ Saya dapat membuat variable dengan let.<br>✓ Saya memahami penggunaan const.<br>✓ Saya dapat menyimpan data ke dalam variable.<br>✓ Saya dapat menampilkan variable dengan console.log().<br>✓ Saya dapat memberikan nama variable dengan benar.<br>✓ Saya dapat menemukan kesalahan variable.</div>
+
+<h2>S. REFLEKSI 3-2-1</h2>
+<div class="answer"><b>3 Hal yang Saya Pelajari:</b> variable; perbedaan let dan const; aturan penamaan variable.</div>
+<div class="answer"><b>2 Hal yang Masih Membingungkan:</b> debugging error yang lebih kompleks; jenis data JavaScript yang lebih banyak.</div>
+<div class="answer"><b>1 Hal yang Ingin Saya Coba:</b> membuat program JavaScript sederhana dengan banyak variable.</div>
+
+<h2>T. KESIMPULAN</h2>
+<div class="answer">Variable adalah tempat untuk menyimpan data agar dapat digunakan kembali oleh program.<br>
+let digunakan untuk data yang masih mungkin berubah.<br>
+const digunakan untuk data yang tidak perlu diubah.<br>
+Untuk menampilkan isi variable ke Console digunakan <code>console.log()</code>.</div>
+
+<h2>U. TUGAS INDIVIDU – DATA PRODUK SEDERHANA</h2>
+<pre>const namaProduk = "Keyboard";
+const kategori = "Perangkat Komputer";
+const harga = 150000;
+let stok = 10;
+const merek = "ABC";
+const tersedia = true;
+
+console.log(namaProduk);
+console.log(kategori);
+console.log(harga);
+console.log(stok);
+console.log(merek);
+console.log(tersedia);</pre>
+
+<h2>Y. EXIT TICKET</h2>
+<div class="answer"><b>1.</b> Variable adalah tempat untuk menyimpan data agar dapat digunakan kembali oleh program.</div>
+<div class="answer"><b>2.</b> let dapat diubah nilainya, sedangkan const tidak dapat diubah setelah dideklarasikan.</div>
+<div class="answer"><b>3.</b> <code>let nama = "Muhammad Fiqri Ramadhan";</code></div>
+
+</div>
+</body>
+</html>
